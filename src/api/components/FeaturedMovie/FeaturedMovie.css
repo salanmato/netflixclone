@@ -1,0 +1,75 @@
+.featured {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.featured--gradient {
+    background-image: radial-gradient(rgba(1, 1, 1, 0.2) 0%, rgba(1, 1, 1, 0.5) 30%, rgba(1, 1, 1, 0.9) 80%, rgba(1, 1, 1, 1) 95%);
+    height: inherit;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.featured--name {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.featured--info {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.featured--points, .featured--year, .featured--seasons{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.featured--overview{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #999;
+    max-width: 40%;
+}
+
+.featured--buttons{
+    margin-top: 15px;
+
+}
+
+.featured--watchbutton, .featured--mylistbutton{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: all ease-in-out 0.2s;
+}
+
+.featured--watchbutton{
+    background-color: #fff;
+    color: #111;
+}
+
+.featured--mylistbutton{
+    background-color: #000;
+    color: #fff;
+}
+
+.featured--watchbutton:hover, .featured--mylistbutton:hover{
+    background-color: red;
+    color: #fff;
+}
+
+.featured--genres{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #999;
+}
