@@ -1,3 +1,22 @@
+# Netflix homepage CLONE
+
+Feito seguindo o tutorial https://www.youtube.com/watch?v=tBweoUiMsDg&t=175s&ab_channel=BoniekyLacerda 
+
+Projeto feito somente para estudos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
